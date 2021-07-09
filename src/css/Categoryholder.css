@@ -1,0 +1,17 @@
+.category-holder {
+	width: 100vw;
+	height: 300px;
+	background: blue;
+	padding-top: 8px;
+	position: relative;
+    margin-bottom: 20px;
+}
+
+.category-holder .listholder {
+    display: inline-flex;
+	height: 270px;
+	background: rgb(41, 40, 40);
+	width: 100%;
+	position: relative;
+	margin-top: 5px;
+}

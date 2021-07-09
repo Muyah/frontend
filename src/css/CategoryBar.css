@@ -1,0 +1,13 @@
+.categoryBar {
+	position: relative;
+	height: 25px;
+	width: 250px;
+	background: green;
+}
+
+.categoryBar .separator {
+	width: 6%;
+	height: 100%;
+	background: #000;
+	margin-left: 6%;
+}
