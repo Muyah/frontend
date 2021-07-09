@@ -9,6 +9,7 @@ import {
 	EventOutlined,
 	SearchOutlined,
 } from "@material-ui/icons";
+import {  Link } from "react-router-dom";
 
 function Navbar() {
 	const [Top, setTop] = useState(50);
@@ -50,8 +51,10 @@ function Navbar() {
 				</div>
 
 				<div className="popular menu-btn">
+					<Link to= "/popular">
 					<QueryBuilder className="icon" />
 					<p className="popular">Popular</p>
+					</Link>
 				</div>
 				<div className="popular menu-btn">
 					<EventOutlined className="icon" />

@@ -1,7 +1,7 @@
 .cat-holder{
     width: 100vw;
-    height: 100vh !important;
+    margin-bottom: 60px;
     position: relative;
-    background: red;
+    
     
 }

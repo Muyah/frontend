@@ -7,8 +7,10 @@
 	z-index: 999;
 	background: rgba(0, 0, 0, 0.4);
 	display: grid;
+	transition: all 0.2s ease-in-out;
 	grid-column-gap: 0px;
 	grid-template-rows: (60px);
+
 	grid-template-columns: 30% 40% 30% !important;
 }
 

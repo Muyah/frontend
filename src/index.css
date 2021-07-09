@@ -6,6 +6,10 @@
 		url("../src/Assets/fonts/Anywhere.woff") format("woff");
 }
 
+-webkit-scrollbar {
+	display: none;
+}
+
 body {
 	margin: 0;
 	box-sizing: border-box;
@@ -15,7 +19,9 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: #000;
+	background: #141414;
+
+	scroll-behavior: smooth;
 }
 
 code {
